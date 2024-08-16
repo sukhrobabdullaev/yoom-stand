@@ -42,7 +42,7 @@ function MobileNav() {
                                         <Link href={link.route} key={link.label} className={cn('flex gap-4 items-center p-4 rounded-lg w-full max-w-60', {
                                             'bg-blue-1': isActive,
                                         })}>
-                                            <Image src={link.imgUrl} alt={link.label} width={20} height={20} />
+                                            <Image src={link.imgURL} alt={link.label} width={20} height={20} />
                                             <p className="font-semibold">
                                                 {link.label}
                                             </p>
